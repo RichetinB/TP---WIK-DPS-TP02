@@ -1,4 +1,4 @@
-# TP WIK DPS TP01
+# TP WIK DPS TP02
 
 ## Lancer le projet
 
@@ -32,4 +32,10 @@ Ouvrez un navigateur ou un outil comme Postman et envoyez une requête GET à l'
 
 ```
 http://localhost:3000/ping
+```
+
+### Run dockerfile
+
+```
+docker run -d -p 3000:3000 --name monapi-container monapi
 ```
